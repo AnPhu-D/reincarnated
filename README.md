@@ -1,21 +1,13 @@
-[![CI](https://github.com/cs100/final-project-adung003-jhsu094-mwu171-jkim1369/actions/workflows/main.yml/badge.svg)](https://github.com/cs100/final-project-adung003-jhsu094-mwu171-jkim1369/actions/workflows/main.yml)
-
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10873566&assignment_repo_type=AssignmentRepo)
 # R'eincarnated
  > Authors: [AnPhu Dung](https://github.com/AnPhu-D), [Joshua Hsu](https://github.com/Dragonlinae), [Jake Kim](https://github.com/jakecreate), [Menthy Wu](https://github.com/menthy-wu)
 
 ## **Project Description**
 ### **What is our project** (Technical Aspects)?
-Our team selected the **text-based RPG** option from the provided document, but decided we want to put a spin on the traditional storytelling oriented form of a text-based RPG and use escape sequences and box-drawing characters in order to implement a more [menu-like](https://faceted-twilight-d08.notion.site/Town-6399946cd8e24f0ea4114e05f59a79e4) feel to our game. Tieing into more popular game trends, we decided that the other main focus of our game would be a ['gacha'](https://en.wikipedia.org/wiki/Gacha_game) mechanic, where players will draw randomly from a pool of rewards.
+Our team wants to put a spin on the traditional storytelling oriented form of a text-based RPG and use escape sequences and box-drawing characters in order to implement a more [menu-like](https://faceted-twilight-d08.notion.site/Town-6399946cd8e24f0ea4114e05f59a79e4) feel to our game. Tieing into more popular game trends, we decided that the other main focus of our game would be a ['gacha'](https://en.wikipedia.org/wiki/Gacha_game) mechanic, where players will draw randomly from a pool of rewards.
 
 ### **What is our project** (Game Design)?
-This game fits in a number of genres, inlcuding: RPG, Text-Based, Gacha, Permadeath, Roguelike
+RPG, Text-Based, Text GUI, Turn-Based
 
-### **What is our project** (The Story)?
-The game (tentatively) follows a group of students who have been mysteriously transported from their world into another reality, one with swords, magic, and monsters. There's just one twist though, they're stuck in a boundless purgatory between worlds. 
-####
-One student, however, is luckily transported into the fantastical world of \<insert world name here>. They will have to survive alone in this new world until they can bring their fellow classmates out of purgatory and into this new world.  
-#
 ### **Why is this project interesting?**
 Our project encompasses a number of unique technical challenges that would otherwise not normally be found in text-based RPGs, such as devising a way to create and display the menu-like text and allow for it to be interacted with. In addition to the challenges, the story and gameplay should also prove to be interesting to the player.
 #
@@ -174,16 +166,8 @@ We decided to no longer have widgetHandler be a Handler to better conform to the
 
 ### Widgets
 On the topic of widgets, we created new widgets to suit our needs. One such widget is the scrollingWidget. As our widgets were desigend with the open-closed principle in mind, we decided to create a new widget that would allow for text wrapping. This is because we did not want to modify the existing widgets to allow for text wrapping, as this would violate the open-closed principle (closed for modification). Instead, we decided to create a new widget that would allow for text wrapping, and would inherit from the existing widgets. This way, we would not have to modify the existing widgets, and we would be able to add new functionality to our game. And since we followed the open-closed principle, we were able to easily extend the capabilties of the widgets to include this new addition.
- 
- > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
- 
- ## Screenshots
- > Screenshots of the input/output after running your application
+
+## Screenshots
 #### Front Page
 ![image](./screenshots/1_front.png)
 #### Session Page
