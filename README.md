@@ -198,7 +198,7 @@ On the topic of widgets, we created new widgets to suit our needs. One such widg
  ## Installation/Usage
 ```bash
 # clone with submodules (googletest)
-git clone --recursive https://github.com/cs100/final-project-adung003-jhsu094-mwu171-jkim1369.git
+git clone --recursive https://github.com/AnPhu-D/reincarnated.git
 ```
 
 ```bash
